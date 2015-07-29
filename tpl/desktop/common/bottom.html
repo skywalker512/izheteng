@@ -1,0 +1,36 @@
+<div id="Bottom">
+    <div id="BottomMain"><div class="fr" align="right"><table cellpadding="10" cellspacing="0" border="0"><tr><td><a href="https://www.upyun.com/" target="_blank"><img src="http://upfiles.b0.upaiyun.com/logo/120x60.png" border="0" width="120" /></a></div></td></tr></table>
+        </div>
+        <strong><a href="/about" class="dark">关于</a></strong> &nbsp; | &nbsp; <strong><a href="/faq" class="dark">FAQ</a></strong> &nbsp; | &nbsp; <strong><a href="/mission" class="dark">我们的愿景</a></strong> &nbsp; | &nbsp; <strong><a href="/advertise" class="dark">广告投放</a></strong> &nbsp; | &nbsp; <strong><a href="http://web.xinzhi.eu.org/" class="dark" target="_blank">新知站群</a></strong>
+        <div class="sep10"></div>
+        <div class="sep5"></div>
+        <span class="fade">{{ site.description }}</span>
+        <div class="sep3"></div>
+        <span class="fade">Powered By <a href="https://github.com/livid/v2ex" target="_blank" class="dark"><strong>Project Babel 2</strong></a></span>
+        <div class="sep10"></div>
+        <div class="sep5"></div>
+        <small>VERSION: {{ system_version }}<br />♥ 做着我们想做的事</small>
+    </div>
+    {% if site.analytics %}
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '{{ site.analytics }}']);
+      _gaq.push(['_setDomainName', 'none']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    {% endif %}
+    {% if member %}
+    {% ifequal member.use_my_css 1 %}
+    <style type="text/css">
+    {{ member.my_css }}
+    </style>
+    {% endifequal %}
+    {% endif %}
+</div>
