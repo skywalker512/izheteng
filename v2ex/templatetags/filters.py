@@ -95,7 +95,6 @@ def clly(value):
     #    return value
     return value
 register.filter(clly)
-
 # auto convert *.sinaimg.cn/*/*.jpg and bcs.baidu.com/*.jpg links to image tags
 def sinaimg(value):
     imgs = re.findall('(http://ww[0-9]{1}.sinaimg.cn/[a-zA-Z0-9]+/[a-zA-Z0-9]+.[a-z]{3})\s?', value)
@@ -104,6 +103,7 @@ def sinaimg(value):
     baidu_imgs = re.findall('(http://(bcs.duapp.com|img.xiachufang.com|i.xiachufang.com)/([a-zA-Z0-9\.\-\_\/]+).jpg)\s?', value)
     for img in baidu_imgs:
         value = value.replace(img[0], '<a href="' + img[0] + '" target="_blank"><img src="' + img[0] + '" class="imgly" border="0" /></a>')
+	imgur_imgs = re.findall('(http://i.imgur.com/[a-zA-Z0-9]+.[a-z]{3})\s?', value)
     return value
 register.filter(sinaimg)
 

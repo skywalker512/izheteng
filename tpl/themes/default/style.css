@@ -15,7 +15,7 @@ html {
 body {
 	padding: 0px;
 	margin: 0px;
-	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 	background-color: #fff;
 }
 
@@ -58,7 +58,7 @@ form {
 }
 
 code {
-	font-family: "Panic Sans", "Menlo", "DejaVu Sans Mono", "Luxi Mono", "Courier New", Monaco, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
 ul, ol {
@@ -168,7 +168,7 @@ a.dark:hover {
 	height: 26px;
 	margin: 1px 0px 1px 30px;
 	background-color: transparent;
-	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 	font-size: 12px;
 	line-height: 20px;
 	outline: none;
@@ -322,13 +322,13 @@ td.avatar_mini {
 }
 
 .note {
-	font-family: "Panic Sans", "Menlo", "DejaVu Sans Mono", "Luxi Mono", "Courier New", "Helvetica Neue", "Tahoma", "Verdana", "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 	font-size: 14px;
 	line-height: 180%;
 }
 
 .page {
-	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 	font-size: 14px;
 	line-height: 180%;
 	padding: 0px 20px 20px 20px;
@@ -519,7 +519,7 @@ td.avatar_mini {
 	font-size: 14px;
 	border: 1px solid #ccc;
 	width: 320px;
-	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
 .sl:focus {
@@ -536,7 +536,7 @@ td.avatar_mini {
 	font-size: 14px;
 	border: 1px solid #ccc;
 	width: 120px;
-	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
 .sls:focus {
@@ -555,7 +555,7 @@ td.avatar_mini {
 	border-bottom: 1px solid #fff;
 	border-left: 1px solid #fff;
 	width: 240px;
-	font-family: "Panic Sans", "Menlo", "DejaVu Sans Mono", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
 .search:focus {
@@ -571,7 +571,7 @@ td.avatar_mini {
 	font-size: 14px;
 	border: 1px solid #ccc;
 	width: 628px;
-	font-family: "Panic Sans", "Menlo", "DejaVu Sans Mono", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
 .sll:focus {
@@ -590,7 +590,7 @@ td.avatar_mini {
 	display: block;
 	width: 320px;
 	height: 160px;
-	font-family: "Panic Sans", "Menlo", "DejaVu Sans Mono", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
 .ml:focus {
@@ -610,7 +610,7 @@ td.avatar_mini {
 	width: 628px;
 	height: 8em;
 	overflow-y: auto;
-	font-family: "Panic Sans", "Menlo", "DejaVu Sans Mono", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
 .mll:focus {
@@ -629,7 +629,7 @@ td.avatar_mini {
 	display: block;
 	width: 242px;
 	height: 50px;
-	font-family: "Panic Sans", "Menlo", "DejaVu Sans Mono", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
 .mlt:focus {
@@ -648,7 +648,7 @@ td.avatar_mini {
 	display: block;
 	width: 618px;
 	height: 100px;
-	font-family: "Panic Sans", "Menlo", "DejaVu Sans Mono", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
 .mle:focus {
@@ -826,7 +826,7 @@ table.grid td.left {
 	border-left: none;
 }
 
-.gist { font-size: 11px; font-family: "Panic Sans", "Menlo", "DejaVu Sans Mono", "Luxi Mono", "Courier New", Monaco, "Hiragino Sans GB", STHeiti !important; }
+.gist { font-size: 11px; font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif; }
 
 .gist-file {
 	-moz-border-radius: 4px; -webkit-border-radius: 4px;

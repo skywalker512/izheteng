@@ -34,7 +34,9 @@
                     {% endif %}
                     <textarea name="title" autofocus maxlength="120" class="mll" style="height: 50px;">{{ topic_title|escape }}</textarea>
                     <div class="sep10"></div>
-                    <textarea name="content" class="mll tall">{{ topic_content|escape }}</textarea>
+					<div id="editormd">
+						<textarea name="content" class="mll tall">{{ topic_content|escape }}</textarea>
+					</div>
                     {{ tt }}
                     <div class="sep10"></div>
                     <input type="submit" value="{{ l10n.create }}" class="super normal button" />
