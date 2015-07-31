@@ -1,4 +1,4 @@
-SYSTEM_VERSION = '2.5.0-dev-7'
+SYSTEM_VERSION = '2.5.0-dev-150731'
 
 import datetime
 import hashlib
