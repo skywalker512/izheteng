@@ -165,7 +165,7 @@ register.filter(mentions)
 
 # gravatar filter
 def gravatar(value,arg):
-    default = "http://www.izheteng.eu.org/static/img/avatar_" + str(arg) + ".png"
+    default = "http://www.izheteng.ga/static/img/avatar_" + str(arg) + ".png"
     if type(value).__name__ != 'Member':
         return '<img src="' + default + '" border="0" align="absmiddle" />'
     if arg == 'large':
